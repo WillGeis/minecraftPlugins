@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "bestoffenseisagooddefenseamiright",
+	"version": "${version}",
+	"name": "bestoffenseisagooddefenseamiright",
+	"description": "DO NOT LISTEN TO FS PRODUCE!",
+	"authors": [
+		"Billyham Gista!"
+	],
+	"contact": {
+		"homepage": "https://github.com/WillGeis/minecraftPlugins#"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bestoffenseisagooddefenseamiright/icon.jpg",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"moldy.bread.Bestoffenseisagooddefenseamiright"
+		]
+	},
+	"mixins": [
+		"bestoffenseisagooddefenseamiright.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
